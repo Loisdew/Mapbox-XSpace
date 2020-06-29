@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>MapBox</title>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+		<script src="Scripts/apikaart.js" defer></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+		<link href="Styles/apikaart.css" rel="stylesheet" />
+
+		<!--zoekbalk linkjes-->
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" type="text/css"/>
+        <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+	
+			<header>
+				<figure>
+					<img src="Images/raket.png"/>
+				</figure>
+				<h1>SpaceX</h1>
+			</header>
+
+			<div id="info"><p>Goedendag, klik op de blauwe iconen en bekijk wat vandaag de beste plekken zijn om te landen. Zoekt u een bestemming? Typ dit dan in de zoekbalk rechts bovenin.</p></div>
+	    	<div id="map"></div>
+
+			<footer>By Loïs de Wit</footer>
+		</div>
+	</body>
+</html>
